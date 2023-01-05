@@ -62,6 +62,7 @@ h2 {
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
     line-height: 1.17;
+    margin-bottom: 20px; 
 }
 
 .blue-font {
@@ -170,7 +171,8 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #2F303A;
+    max-width: 1600px;
+    background: #2F303A url("images/team.jpg") no-repeat center;
     height: 600px;
     left: 0px;
     top: 80px;
@@ -224,6 +226,7 @@ h2 {
 .smartphone{
     margin-right: 10px;
 }
+
 .icon-strengths{
     margin-right: 30px;
     background-color:#F5F4FA;
@@ -239,8 +242,10 @@ h2 {
 .media{
     margin-right: 10px;
 }
-
-.icon:hover {
+.icon{
+    cursor: pointer;
+}
+.icon:focus {
     fill: #2196F3;
 }
 
@@ -303,6 +308,7 @@ h2 {
 }
 
 .figure {
+    cursor: pointer;
     margin-right: 30px;
     margin-bottom: 30px;
 }
@@ -381,11 +387,36 @@ box-shadow:0px 1px 1px, 0px 4px 4px, 1px 4px 6px;
     line-height: 1.17;
     color: #757575;
 }
+.our-customers{
+font-size: 36px;
+font-weight: 700;
+line-height: 1.17;
+text-align: center;
+color: #212121;
+}
+.customers{
+    display: flex;
+        justify-content: center;
+       
+}
+.customers-logo{ 
+        cursor: pointer;
+        border-color: #AFB1B8;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 4px;
+        margin-right: 30px;
+        padding: 16px 32px;
+        
+}
+.customers-logo:hover{
+fill: #2196F3;
+}
 
 .footer {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content:left;
+    align-items: center;
     background-color: #2F303A;
     height: 252px;
     left: 0px;
@@ -393,7 +424,15 @@ box-shadow:0px 1px 1px, 0px 4px 4px, 1px 4px 6px;
     border-radius: 0px;
 
 }
-
+.footer-column{
+    margin-right: 70px;  
+}
+.join-us{
+    font-size: 14px;
+        font-weight: 700;
+        line-height: 1.17;
+        color: #FFFFFF;
+}
 .address {
     font-style: normal;
     font-size: 14px;
