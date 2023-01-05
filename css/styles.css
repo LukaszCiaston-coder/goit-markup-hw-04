@@ -171,12 +171,13 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #2F303A 40%;
+    background-image: url("/images/team.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     max-width: 1600px;
-    background: #2F303A url("images/team.jpg") no-repeat center;
     height: 600px;
-    left: 0px;
-    top: 80px;
-    border-radius: 0px;
 }
 
 .main-title {
