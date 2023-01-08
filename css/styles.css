@@ -38,7 +38,7 @@ h2 {
 .section {
     padding: 94px 0px;
 }
-
+/*---------------header----------------*/
 .header {
     display: flex;
     justify-content: center;
@@ -165,14 +165,24 @@ h2 {
 
 .number:hover {
     color: #2196F3;
+} 
+.envelope{
+    margin-right: 10px;
+}
+.smartphone{
+    margin-right: 10px;
+}
+.icon:hover{
+    fill:#2196F3;
 }
 
+/*------------------Main-------------------*/
 .border-heading {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #2F303A 40%;
-    background-image: url("/images/team.jpg");
+    background-color: #2F303A;
+    background: linear-gradient(#2f303a66, #2f303a66),url("/images/team.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -215,41 +225,37 @@ h2 {
     font-weight: 700;
     color: #ffff;
 }
+
 .our-strengths{
     display: flex;
-    justify-content: center;
-    border-radius: 4px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
     margin-bottom: 30px;
 }
-.envelope{
-    margin-right: 10px;
-}
-.smartphone{
-    margin-right: 10px;
-}
+
 
 .icon-strengths{
-    margin-right: 30px;
+    cursor: pointer;
+    display: flex;
+    align-content: center;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
     background-color:#F5F4FA;
-    margin-right: 30px;
-    padding: 25px;
+    
+}
+.strengths{
+    margin:30px 100px;
 }
 .social-media{
     display:flex;
     justify-content: center;
     margin-top: 16px;
     margin-bottom: 30px;
+
 }
-.media{
-    margin-right: 10px;
-}
-.icon{
-    cursor: pointer;
-    
-}
-.envelope:hover{
-    --color4: var(--accent-color);
-}
+
 
 .article-lorem {
     display: flex;
@@ -299,6 +305,7 @@ h2 {
     font-size: 16px;
     font-weight: 700;
     color: #ffff;
+    box-shadow: 0px 2px 2px 0px #0000001f, 0px 1px 2px 0px #00000014, 0px 3px 1px 0px #0000001a;
 }
 
 .gallery-figure {
@@ -373,6 +380,8 @@ box-shadow:0px 1px 1px, 0px 4px 4px, 1px 4px 6px;
 
 .figure-johndoe {
     display: flex;
+width:270px;
+height: 428px;
     padding: 0px;
     margin-right: 30px;
     box-shadow: 0px 1px 3px, 0px 1px 1px, 0px 2px 1px;
@@ -383,12 +392,30 @@ box-shadow:0px 1px 1px, 0px 4px 4px, 1px 4px 6px;
 .professional-position {
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 30px;
     padding: 0px;
     font-size: 16px;
     line-height: 1.17;
     color: #757575;
 }
+.team-media{
+    display: flex;
+    margin-bottom: 16px;
+}
+.icon-team{
+    fill: #AFB1B8;;
+        margin-right: 10px;
+        padding: 12px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 50px;
+}
+.icon-team:hover {
+    fill: #FFFFFF;
+    background: #2196f3;
+}
+
 .our-customers{
 font-size: 36px;
 font-weight: 700;
@@ -398,23 +425,25 @@ color: #212121;
 }
 .customers{
     display: flex;
-        justify-content: center;
-       
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+
 }
 .customers-logo{ 
         cursor: pointer;
-        border-color: #AFB1B8;
-        border-style: solid;
-        border-width: 1px;
-        border-radius: 4px;
-        margin-right: 30px;
+        display: flex;
+        fill: #afb1b8;
         padding: 16px 32px;
-        
+        border: 1px solid #afb1b8;
+        border-radius: 4px;
 }
 .customers-logo:hover{
 fill: #2196F3;
+border-color: #2196f3;
 }
 
+/*-------------footer--------------------*/
 .footer {
     display: flex;
     justify-content:left;
@@ -426,25 +455,19 @@ fill: #2196F3;
     border-radius: 0px;
 
 }
-.footer-column{
-    margin-right: 70px;  
-}
 .footer-box{
     display:flex;
 }
-.join-us{
-    font-size: 14px;
-        font-weight: 700;
-        line-height: 1.17;
-        color: #FFFFFF;
+
+.footer-column{
+    margin-right: 70px;  
 }
 .address {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
-    color: #ffff
+    color: #FFFFFF;
 }
-
 .tel {
     font-style: normal;
     font-size: 14px;
@@ -468,7 +491,6 @@ fill: #2196F3;
 .mail:hover {
     color: #2196F3;
 }
-
 .mail-portfolio {
     font-style: normal;
     font-size: 14px;
@@ -476,12 +498,35 @@ fill: #2196F3;
     text-decoration: underline;
     color: #FFFFFF60;
 }
-
-.footer-link {
-    margin: 0px;
-    padding: 0px;
-}
-
 .mail-portfolio:hover {
     color: #2196F3;
 }
+.join-us{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.17;
+    margin-bottom: 70px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.footer-media{
+    display:flex;
+}
+
+.icon-footer {
+    fill: #FFFFFF;
+    margin-right: 10px;
+    padding: 12px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+}
+.icon-footer:hover{
+fill:#FFFFFF;
+background:#2196f3;
+}
+
+
