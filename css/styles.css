@@ -186,6 +186,7 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin:auto;
     max-width: 1600px;
     height: 600px;
 }
@@ -351,6 +352,7 @@ h2 {
     font-weight: 400;
     line-height: 1.71;
     color: #757575;
+    letter-spacing: 0.03em;
 }
 
 .work {
@@ -378,7 +380,6 @@ h2 {
     line-height: 1.17;
     color: #212121;
 }
-
 
 .figure-johndoe {
     display: flex;
@@ -457,27 +458,29 @@ h2 {
     display: flex;
     justify-content: left;
     background-color: #2F303A;
-    height: 252px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     left: 0px;
     top: 2097px;
     border-radius: 0px;
 }
 
 .footer-box {
-    display: flex;
+    display: flex;    
 }
 
 .footer-column {
-    margin-right: 70px;
+    margin-right: 70px; 
 }
+
 .footer-logo {
     font-size: 26px;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
     line-height: 1.17;
     margin-bottom: 20px;
-    margin-top: 60px;
 }
+
 .address {
     font-style: normal;
     font-size: 14px;
@@ -527,7 +530,7 @@ h2 {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.17;
-    margin-top: 72px;
+    margin-top: 12px;
     margin-bottom: 20px;
     color: #FFFFFF;
 }
