@@ -38,6 +38,7 @@ h2 {
 .section {
     padding: 94px 0px;
 }
+
 /*---------------header----------------*/
 .header {
     display: flex;
@@ -57,13 +58,7 @@ h2 {
 
 }
 
-.footer-logo {
-    font-size: 26px;
-    font-weight: 700;
-    font-family: 'Raleway', sans-serif;
-    line-height: 1.17;
-    margin-bottom: 20px; 
-}
+
 
 .blue-font {
     color: #2196f3;
@@ -165,15 +160,18 @@ h2 {
 
 .number:hover {
     color: #2196F3;
-} 
-.envelope{
+}
+
+.envelope {
     margin-right: 10px;
 }
-.smartphone{
+
+.smartphone {
     margin-right: 10px;
 }
-.icon:hover{
-    fill:#2196F3;
+
+.icon:hover {
+    fill: #2196F3;
 }
 
 /*------------------Main-------------------*/
@@ -182,7 +180,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     background-color: #2F303A;
-    background: linear-gradient(#2f303a66, #2f303a66),url("/images/team.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/team.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -226,7 +224,7 @@ h2 {
     color: #ffff;
 }
 
-.our-strengths{
+.our-strengths {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -235,21 +233,23 @@ h2 {
 }
 
 
-.icon-strengths{
+.icon-strengths {
     cursor: pointer;
     display: flex;
     align-content: center;
     border-radius: 4px;
     width: 270px;
     height: 120px;
-    background-color:#F5F4FA;
-    
+    background-color: #F5F4FA;
+
 }
-.strengths{
-    margin:30px 100px;
+
+.strengths {
+    margin: 30px 100px;
 }
-.social-media{
-    display:flex;
+
+.social-media {
+    display: flex;
     justify-content: center;
     margin-top: 16px;
     margin-bottom: 30px;
@@ -322,8 +322,8 @@ h2 {
     margin-bottom: 30px;
 }
 
-.figure:hover{
-box-shadow:0px 1px 1px, 0px 4px 4px, 1px 4px 6px;
+.figure:hover {
+    box-shadow: 0px 1px 1px, 0px 4px 4px, 1px 4px 6px;
 }
 
 .border-text {
@@ -380,8 +380,8 @@ box-shadow:0px 1px 1px, 0px 4px 4px, 1px 4px 6px;
 
 .figure-johndoe {
     display: flex;
-width:270px;
-height: 428px;
+    width: 270px;
+    height: 428px;
     padding: 0px;
     margin-right: 30px;
     box-shadow: 0px 1px 3px, 0px 1px 1px, 0px 2px 1px;
@@ -397,57 +397,63 @@ height: 428px;
     line-height: 1.17;
     color: #757575;
 }
-.team-media{
+
+.team-media {
     display: flex;
     margin-bottom: 16px;
 }
-.icon-team{
-    fill: #AFB1B8;;
-        margin-right: 10px;
-        padding: 12px;
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-        background-color: rgba(255, 255, 255, 0.1);
-        border-radius: 50px;
+
+.icon-team {
+    fill: #AFB1B8;
+    ;
+    margin-right: 10px;
+    padding: 12px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
 }
+
 .icon-team:hover {
     fill: #FFFFFF;
     background: #2196f3;
 }
 
-.our-customers{
-font-size: 36px;
-font-weight: 700;
-line-height: 1.17;
-text-align: center;
-color: #212121;
+.our-customers {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-align: center;
+    color: #212121;
 }
-.customers{
+
+.customers {
     display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
 
 }
-.customers-logo{ 
-        cursor: pointer;
-        display: flex;
-        fill: #afb1b8;
-        padding: 16px 32px;
-        border: 1px solid #afb1b8;
-        border-radius: 4px;
+
+.customers-logo {
+    cursor: pointer;
+    display: flex;
+    fill: #afb1b8;
+    padding: 16px 32px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
 }
-.customers-logo:hover{
-fill: #2196F3;
-border-color: #2196f3;
+
+.customers-logo:hover {
+    fill: #2196F3;
+    border-color: #2196f3;
 }
 
 /*-------------footer--------------------*/
 .footer {
     display: flex;
-    justify-content:left;
-    align-items: center;
+    justify-content: left;
     background-color: #2F303A;
     height: 252px;
     left: 0px;
@@ -455,19 +461,30 @@ border-color: #2196f3;
     border-radius: 0px;
 
 }
-.footer-box{
-    display:flex;
+
+.footer-box {
+    display: flex;
 }
 
-.footer-column{
-    margin-right: 70px;  
+.footer-column {
+    margin-right: 70px;
+}
+.footer-logo {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.17;
+    margin-bottom: 20px;
+    margin-top: 60px;
 }
 .address {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
     color: #FFFFFF;
 }
+
 .tel {
     font-style: normal;
     font-size: 14px;
@@ -491,6 +508,7 @@ border-color: #2196f3;
 .mail:hover {
     color: #2196F3;
 }
+
 .mail-portfolio {
     font-style: normal;
     font-size: 14px;
@@ -498,20 +516,22 @@ border-color: #2196f3;
     text-decoration: underline;
     color: #FFFFFF60;
 }
+
 .mail-portfolio:hover {
     color: #2196F3;
 }
-.join-us{
+
+.join-us {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.17;
-    margin-bottom: 70px;
+    margin-top: 72px;
     margin-bottom: 20px;
     color: #FFFFFF;
 }
 
-.footer-media{
-    display:flex;
+.footer-media {
+    display: flex;
 }
 
 .icon-footer {
@@ -524,9 +544,8 @@ border-color: #2196f3;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50px;
 }
-.icon-footer:hover{
-fill:#FFFFFF;
-background:#2196f3;
+
+.icon-footer:hover {
+    fill: #FFFFFF;
+    background: #2196f3;
 }
-
-
