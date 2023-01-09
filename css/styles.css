@@ -186,7 +186,7 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin:auto;
+    margin: auto;
     max-width: 1600px;
     height: 600px;
 }
@@ -203,7 +203,8 @@ h2 {
 
 .bg {
 
-    background-color: #F5F4FA;
+    background-color: #2196F3;
+    color: #FFFFFF;
     border: none;
     cursor: pointer;
     margin-top: 30px;
@@ -220,19 +221,12 @@ h2 {
 
 }
 
-.bg:hover {
-    background-color: #2196F3;
-    font-size: 16px;
-    font-weight: 700;
-    color: #ffff;
-}
-
 .our-strengths {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-right: 30px;
-    margin-bottom: 30px;
+
 }
 
 
@@ -244,11 +238,27 @@ h2 {
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
-
+    margin-bottom: 30px;
 }
 
 .strengths {
     margin: 30px 100px;
+}
+
+.text-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.17;
+    color: #212121;
+}
+
+.article-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    color: #757575;
+    letter-spacing: 0.03em;
 }
 
 .social-media {
@@ -256,13 +266,6 @@ h2 {
     justify-content: center;
     margin-top: 16px;
     margin-bottom: 30px;
-
-}
-
-
-.article-lorem {
-    display: flex;
-    justify-content: space-around;
 
 }
 
@@ -315,8 +318,6 @@ h2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
-
 }
 
 .figure {
@@ -337,22 +338,6 @@ h2 {
     padding-left: 24px;
     padding-bottom: 20px;
     padding-top: 20px;
-}
-
-.text-title {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.17;
-    color: #212121;
-}
-
-.article-text {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.71;
-    color: #757575;
-    letter-spacing: 0.03em;
 }
 
 .work {
@@ -466,11 +451,11 @@ h2 {
 }
 
 .footer-box {
-    display: flex;    
+    display: flex;
 }
 
 .footer-column {
-    margin-right: 70px; 
+    margin-right: 70px;
 }
 
 .footer-logo {
