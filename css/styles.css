@@ -225,11 +225,13 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 30px;
-
+    gap: 30px;
 }
 
-
+.section-strengths{
+    padding-top: 92px;
+    padding-bottom: 0px;
+}
 .icon-strengths {
     cursor: pointer;
     display: flex;
@@ -240,11 +242,9 @@ h2 {
     background-color: #F5F4FA;
     margin-bottom: 30px;
 }
-
 .strengths {
-    margin: 30px 100px;
+    margin: auto;
 }
-
 .text-title {
     text-transform: uppercase;
     font-size: 14px;
